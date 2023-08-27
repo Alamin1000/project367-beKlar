@@ -1,17 +1,198 @@
 
 
-@media (max-width: 1399px) {
- 
-}
-
-
 @media (max-width: 1199px) {
- 
+    .header-logo {
+        width: 123px;
+        margin-left: -14px;
+    }
+    .main-menu ul li a {
+        font-size: 17px;
+    }
+    .main-menu ul {
+        gap: 55px;
+    }
+    .header-in {
+        padding: 20px 0;
+    }
+    .hero__content .h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    .hero__content p {
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+    .default-button {
+        padding: 6px 20px 3px;
+        font-size: 16px;
+        min-height: 49px;
+        min-width: 220px;
+        border-radius: 15px;
+    }
+    .hero__content .line {
+        width: 160px;
+        margin-bottom: 20px;
+        height: 1px;
+    }
+
+    .hero__content {
+        width: 300px;
+        margin-left: 0px;
+        margin-right: 60px;
+    }
+    .hero-section {
+        padding: 145px 0 40px;
+    }
+    .bt-btn {
+        width: 30px;
+    }
+    .hero-bottom {
+        padding-top: 45px;
+    }
+
+    .products__content .h2 {
+        margin-bottom: 32px;
+    }
+    .h2 {
+        font-size: 40px;
+    }
+    .d-ul li {
+        font-size: 19px;
+        padding-left: 24px;
+        padding-top: 6px;
+        position: relative;
+    }
+    .d-ul li::before {
+        height: 17px;
+        width: 17px;
+    }
+    .products__content {
+        padding-left: 80px;
+    }
+    .products-section {
+        padding: 50px 0;
+    }
+    .default-button.sm {
+        border-radius: 10px;
+        min-height: 32px;
+        min-width: 120px;
+    }
+    .products-section__bottom {
+        margin-top: 20px;
+    }
+
+    .benefit-ttl {
+        width: 210px;
+        top: 10px;
+        right: -25px;
+    }
+    .benefit-m {
+        width: 340px;
+        bottom: 11px;
+        left: -110px;
+    }
+    .benefit-option .txt {
+        margin-left: 25px;
+        font-size: 20px;
+    }
+    .benefit-option .mk {
+        height: 12px !important;
+        width: 100px !important;
+    }
+    .benefit-options {
+        gap: 13px;
+        padding-left: 200px;
+    }
+    .benefit-section {
+        padding: 60px 0;
+    }
+
+    .trust-section-bt-shape {
+        width: 165px;
+        bottom: 70px;
+        left: 50px;
+    }
+    .trust-option img {
+        width: calc(var(--wd) * 0.6);
+    }
+    .trust-section {
+        padding: 80px 0 360px;
+        position: relative;
+    }
+
+    .hear-section__title {
+        width: 178px;
+        margin-right: 70px;
+    }
+    .hear-slide__img-p {
+        width: 240px;
+        height: 313px;
+        border-radius: 300px;
+        margin-left: 50px;
+    }
+    .hear-slide__title h3 {
+        font-size: 24px;
+        margin-bottom: 4px;
+    }
+    .hear-slide__title h4 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .hear-slide__b p {
+        margin-bottom: 20px;
+        font-size: 19px;
+    }
+    .hear-section {
+        padding: 340px 0 60px;
+        margin-top: -400px;
+    }
+    .default-button.lg {
+        padding: 14px 30px 8px;
+        font-size: 25px;
+        min-height: 70px;
+        min-width: 277px;
+    }
+    .book-section__title {
+        margin-bottom: 60px;
+    }
+    
+    .footer-row {
+        padding-left: 40px;
+    }
 }
 
 
 @media (max-width: 991px) {
- 
+    .products__screen {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .products__content {
+        padding-left: 205px;
+    }
+    .benefit-m {
+        width: 200px;
+        bottom: 11px;
+        left: -90px;
+    }
+    .benefit-ttl {
+        width: 120px;
+        top: 10px;
+        right: -20px;
+    }
+    .benefit-options {
+        gap: 13px;
+        padding-left: 50px;
+    }
+    
+    .hear-section__row {
+        flex-wrap: wrap;
+    }
+    .hear-section__title {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 }
 
 

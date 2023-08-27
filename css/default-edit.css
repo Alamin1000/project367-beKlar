@@ -32,9 +32,10 @@
     min-width: 207px;
 }
 .default-button.lg {
-    font-size: 31.8px;
-    min-height: 70px;
-    min-width: 317px;
+	padding: 14px 30px 8px;
+	font-size: 31.8px;
+	min-height: 70px;
+	min-width: 317px;
 }
 /* ---buttons---end */
 
