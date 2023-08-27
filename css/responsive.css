@@ -368,15 +368,78 @@
         gap: 12px;
         margin-top: 18px;
     }
+    .hear-section__title {
+        margin-right: 0;
+    }
+    .hear-slider__outer {
+        width: 100%;
+    }
+    .hear-section {
+	padding: 70px 0 60px;
+	margin-top: -100px;
+    }
+    .book-section__title .h2 {
+        text-transform: capitalize;
+    }
+    .book-section__title .h2 .fw-500 {
+        font-weight: 400 !important;
+    }
+    .book__main {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .book-section__title {
+        margin-bottom: 20px;
+    }
+    .default-button.lg {
+        padding: 9px 30px 5px;
+        font-size: 16px;
+        min-height: 44px;
+        min-width: 190px;
+    }
+    .book-section {
+        padding: 30px 0 70px;
+    }
 
+    
+
+    .footer-section {
+        background: #fff;
+        color: #000;
+    }
+    .footer-logo {
+        width: 88px;
+        margin-left: -19px;
+    }
 }
 
 
 @media (max-width: 575px) {
- 
+    
 }
 
 
 @media (max-width: 390px) {
- 
+    .products__content {
+        padding-left: 25px;
+    }
+    .benefit-options {
+        gap: 5px;
+        padding-left: 0px;
+        margin-left: -20px;
+    }
+    .benefit-option .txt {
+        font-size: 12px;
+    }
+    .benefit-ttl {
+        width: 100px;
+        top: 20px;
+        right: -20px;
+    }
+    .benefit-section__title {
+        padding-left: 30px;
+    }
+    .h2 {
+        font-size: 25px;
+    }
 }

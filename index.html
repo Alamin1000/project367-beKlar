@@ -28,29 +28,26 @@
     <div class="main-wrap">
       <!-- offcanvas-start -->
       <div class="offcanvas-menu">
-        <ul class="offmenu" id="menuParent">
-          <a href="#" class="offcanvas-close"><i class="fa fa-times"></i></a>
-          <li class="active"><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li class="dropdown">
-            <a href="#" data-bs-toggle="collapse" data-bs-target="#drop-menu1"
-              >OUR HORSES</a
-            >
-            <div
-              class="dropdown-menu-custom collapse"
-              id="drop-menu1"
-              data-bs-parent="#menuParent"
-            >
-              <ul>
-                <li><a href="#">YEARLINGS</a></li>
-                <li><a href="#">2 YEAR OLDS</a></li>
-                <li><a href="#">3 YEAR OLD PLUS</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="#">LATEST NEWS</a></li>
-          <li><a href="#">CONTACT & FIND US</a></li>
-        </ul>
+        <div class="offmenu" id="menuParent">
+          <div class="offcanvas-title">
+            <a href="index.html" class="off-logo">
+              <img src="images/logo-solid.svg" alt="" />
+            </a>
+            <a href="#" class="offcanvas-close">
+              <i class="fal fa-times"></i>
+            </a>
+          </div>
+
+          <ul class="mobile-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <a href="#" class="off-sign-up">SIGN UP</a>
+          </ul>
+
+          <div class="offmenu-bottom"></div>
+        </div>
       </div>
       <div class="offcanvas-overlay"></div>
       <!-- offcanvas-start-end -->
@@ -422,8 +419,10 @@
               <div class="book-section__inner">
                 <div class="book-section__title cont-blk cont-blk--center">
                   <h2 class="h2 mb-0 color-theme1">
-                    <span class="fw-500">Book an appointment with</span> <br />
-                    our experts <span class="fw-500">today</span>
+                    <span class="fw-500">Book an appointment with</span>
+                    <br class="d-mb-block d-none" />
+                    our experts <br class="d-md-none" />
+                    <span class="fw-500">today</span>
                   </h2>
                 </div>
 
@@ -448,7 +447,7 @@
           <!-- book-section-end -->
 
           <!-- ft-section -->
-          <section class="ft-section">
+          <section class="ft-section d-md-block d-none">
             <div class="container">
               <div class="ft-section__inner">
                 <div class="ft__image">
@@ -463,12 +462,17 @@
           <footer class="footer-section">
             <div class="container">
               <div class="footer-section__inner">
-                <div class="footer-row row gy-md-5 gy-4">
+                <div class="footer-row row gy-5">
                   <div class="col-lg-3 col-6">
                     <img
                       src="images/footer-logo.svg"
                       alt=""
-                      class="footer-logo"
+                      class="footer-logo d-md-block d-none"
+                    />
+                    <img
+                      src="images/logo-color.svg"
+                      alt=""
+                      class="footer-logo d-md-none"
                     />
                   </div>
                   <div class="col-lg-3 col-6">
@@ -480,7 +484,7 @@
                       </ul>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-6">
+                  <div class="col-lg-3 col-6 order-lg-0 order-last">
                     <div class="footer-menu">
                       <h4>Social</h4>
                       <ul>
