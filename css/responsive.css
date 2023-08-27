@@ -159,6 +159,27 @@
     .footer-row {
         padding-left: 40px;
     }
+
+
+    .kla-title h2 {
+        font-size: 45px;
+    }
+    .kla-content p {
+        font-size: 19px;
+    }
+    .kla-section {
+        padding: 280px 0 45px;
+        margin-top: -133px;
+    }
+    .ofr-section {
+        padding: 90px 0 35px;
+    }
+    .ofr-sec-bottom .zig-line {
+        width: 250px;
+    }
+    .ofr-sec-bottom {
+        margin-top: 45px;
+    }
 }
 
 
@@ -192,6 +213,15 @@
         width: 100%;
         margin-bottom: 20px;
         text-align: center;
+    }
+
+
+    .kla-row {
+        gap: 40px;
+    }
+    .d-ul--max {
+        padding-left: 0;
+        gap: 20p0x;
     }
 }
 
@@ -410,6 +440,110 @@
     .footer-logo {
         width: 88px;
         margin-left: -19px;
+    }
+
+
+    .product-hero .hero__content {
+        width: 168px;
+        margin-right: 0;
+    }
+    .product-hero .hero__content .line {
+        width: 73px;
+        height: 2px;
+    }
+    .product-hero .hero__content p {
+        line-height: 1.03;
+    }
+    .product-hero .hero__content .bottom-button {
+        left: 20px;
+        transform: translate(0);
+        background: #fff;
+    }
+    .product-hero .hero-mobile {
+        margin-left: -30px;
+        max-width: calc(100% + 50px);
+    }
+    .product-hero .hero__row {
+        padding-bottom: 42px;
+    }
+
+
+    .kla-section {
+
+    }
+    .kla-bg-shape {
+        display: none;
+    }
+    .kla-row {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .kla-title h2 {
+        font-size: 35px;
+        line-height: 1.1;
+    }
+    .kla-section__inner {
+        padding: 0 20px;
+    }
+    .kla-content p {
+        font-size: 15px;
+    }
+    .kla-section {
+        padding: 41px 0 30px;
+        margin-top: 0;
+    }
+
+
+    .ofr-row {
+        padding: 0 20px;
+        flex-wrap: wrap;
+    }
+    .ofr-title {
+        margin-left: auto;
+        margin-top: 0px;
+        order: -1;
+        margin-bottom: 10px;
+    }
+    .ofr-content .benefit-options .benefit-option:nth-child(6) {
+        display: none;
+    }
+    .ofr-content .benefit-options .benefit-option:nth-child(7) {
+        display: none;
+    }
+    .ofr-title .h2 {
+        text-align: right;
+    }
+    .ofr-content {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .ofr-sec-bottom {
+        display: none;
+    }
+    .d-ul--max {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+    .d-ul--max li {
+        width: 100%;
+        margin-top: 3px;
+    }
+    .d-ul--max li::after {
+        display: none;
+    }
+    .cf-section {
+        padding: 0px 0 130px;
+    }
+    .ofr-section {
+        padding: 35px 0 35px;
+    }
+    .background-group-p3 {
+        padding-top: 170px;
+        margin-top: -170px;
+        padding-bottom: 0px;
     }
 }
 
