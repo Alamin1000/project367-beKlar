@@ -245,6 +245,36 @@
         margin-top: 50px;
         height: 320px;
     }
+
+
+    .contact-form__title .h2 {
+        font-size: 40px;
+    }
+    .contact-side__image {
+        width: 210px;
+        margin-left: 70px;
+    }
+    .contact-form__title {
+        margin-bottom: 25px;
+    }
+    .input-x {
+        padding: 15px 17px;
+        font-size: 18px;
+        height: 60px;
+        border-radius: 4px;
+        margin-bottom: 12px;
+    }
+    .input-x-submit {
+        min-height: 48px;
+        min-width: 112px;
+        font-size: 16px;
+        padding: 8px 10px 4px;
+        border-radius: 7px;
+    }
+
+    .contact-section {
+        padding: 200px 0 30px;
+    }
 }
 
 
@@ -291,6 +321,11 @@
 
 
     .about-hero__content {
+        padding: 0;
+    }
+
+
+    .contact-section__inner {
         padding: 0;
     }
 }
@@ -735,6 +770,40 @@
     .a-bottom {
         margin-top: 0px;
         height: 250px;
+    }
+
+
+    .contact-side__image {
+        display: none;
+    }
+    .contact-form__title .h2 {
+        font-size: 35px;
+        line-height: 0.7;
+        font-weight: 700;
+        text-align: center;
+    }
+    .contact-form__title {
+        margin-bottom: 29px;
+    }
+    .contact-section__inner {
+        padding: 0 10px;
+    }
+    .input-x {
+        padding: 15px 17px 11px;
+        font-size: 20px;
+        height: 52px;
+        border-radius: 8px;
+        margin-bottom: 11px;
+    }
+    .input-x-submit {
+        min-height: 38px;
+        min-width: 162px;
+        font-size: 15px;
+        padding: 8px 10px 4px;
+        border-radius: 39px;
+    }
+    .contact-section {
+        padding: 115px 0 0px;
     }
 }
 
