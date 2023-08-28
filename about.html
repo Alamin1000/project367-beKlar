@@ -90,7 +90,7 @@
           <section class="about-hero-section">
             <div class="container">
               <div class="about-hero-section__inner">
-                <div class="about-hero__image">
+                <div class="about-hero__image d-md-block d-none">
                   <h2 class="img-caption fw-400">
                     Who is <span class="fw-500">KLAR?</span>
                   </h2>
@@ -98,23 +98,40 @@
                 </div>
 
                 <div class="about-hero__content">
-                  <p>
-                    Our software is a powerful tool that provides real-time risk
-                    analysis capabilities, allowing businesses to make informed
-                    decisions quickly and accurately.
-                  </p>
-                  <p>
-                    With Klar’s real-time risk analysis, users can monitor
-                    market fluctuations, assess potential risks, and identify
-                    opportunities in real-time, ensuring timely and proactive
-                    risk management.
-                  </p>
-                  <p>
-                    The software's API marketplace offers a diverse range of
-                    APIs from trusted sources, enabling seamless integration of
-                    external data and expanding the capabilities of the risk
-                    analysis module.
-                  </p>
+                  <div class="about-hero__content__inner">
+                    <div class="about-hero__content__title d-md-none">
+                      <h2 class="h2">
+                        Who is <br />
+                        Klar?
+                      </h2>
+                      <span class="line"></span>
+                    </div>
+                    <p>
+                      Our software is a powerful tool that provides
+                      <span class="d-inline-block">real-time</span>
+                      risk analysis capabilities, allowing businesses to make
+                      informed decisions quickly and accurately.
+                    </p>
+                    <p>
+                      With Klar’s real-time risk analysis, users can monitor
+                      market fluctuations, assess potential risks, and identify
+                      opportunities in real-time, ensuring timely and proactive
+                      risk management.
+                    </p>
+                    <p>
+                      The software's API marketplace offers a diverse range of
+                      APIs from trusted sources, enabling seamless integration
+                      of external data and expanding the capabilities of the
+                      risk analysis module.
+                    </p>
+                  </div>
+                  <div class="about-hero__mobile-image d-md-none">
+                    <img
+                      src="images/about-hero-mobile-image.png"
+                      alt=""
+                      class="img"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -128,19 +145,23 @@
                 <div class="team-section__title">
                   <h2 class="h2">
                     <span class="fw-400">Our</span>
+                    <br class="d-md-none" />
                     <span class="fw-500">TEAM</span>
                   </h2>
                 </div>
 
-                <div class="team-member-row">
-                  <div class="col-md-12">
+                <div class="team-member-row row">
+                  <div class="col-md-12 col-6">
                     <div class="team-member">
                       <div class="team-member__image">
                         <img src="images/member-1.png" alt="" />
                       </div>
                       <div class="team-member__content">
                         <div class="team-member__mt">
-                          <h4>Guðmundur Jón Halldórsson</h4>
+                          <h4>
+                            Guðmundur Jón <br class="d-md-none" />
+                            Halldórsson
+                          </h4>
                           <h3>
                             <span class="txt">CEO</span>
                             <img
@@ -169,13 +190,19 @@
                     </div>
                   </div>
 
-                  <div class="col-md-12">
-                    <div class="team-member mb-0">
+                  <div class="col-md-12 col-6">
+                    <div class="team-member mb-0 team-member--even">
                       <div class="team-member__content">
                         <div class="team-member__mt">
-                          <h4>Ingi Björn Sigurðsson</h4>
+                          <h4>
+                            Ingi Björn <br class="d-md-none" />
+                            Sigurðsson
+                          </h4>
                           <h3>
-                            <span class="txt">Business Development</span>
+                            <span class="txt"
+                              >Business <br class="d-md-none" />
+                              Development</span
+                            >
                             <img
                               src="images/linked-in.png"
                               alt=""
@@ -216,15 +243,18 @@
           <section class="team-section team-section--2">
             <div class="container">
               <div class="team-section__inner">
-                <div class="team-member-row">
-                  <div class="col-md-12">
+                <div class="team-member-row row">
+                  <div class="col-md-12 col-6">
                     <div class="team-member">
                       <div class="team-member__image">
                         <img src="images/member-3.png" alt="" />
                       </div>
                       <div class="team-member__content">
                         <div class="team-member__mt">
-                          <h4>Guðmundur Grétar Sigurðsson</h4>
+                          <h4>
+                            Guðmundur Grétar <br class="d-md-none" />
+                            Sigurðsson
+                          </h4>
                           <h3>
                             <span class="txt">CTO</span>
                             <img
@@ -252,11 +282,14 @@
                     </div>
                   </div>
 
-                  <div class="col-md-12">
-                    <div class="team-member">
+                  <div class="col-md-12 col-6">
+                    <div class="team-member team-member--4 team-member--even">
                       <div class="team-member__content">
                         <div class="team-member__mt">
-                          <h4>Ásgeir Helgi Jóhannson</h4>
+                          <h4>
+                            Ásgeir Helgi <br class="d-md-none" />
+                            Jóhannson
+                          </h4>
                           <h3>
                             <span class="txt">CLO</span>
                             <img
@@ -289,6 +322,8 @@
             </div>
           </section>
           <!-- team-section-end -->
+
+          <div class="a-bottom"></div>
         </div>
         <!-- background-group-a2 -->
 
@@ -297,13 +332,13 @@
         <!-- background-group-a3-end -->
 
         <!-- footer-section -->
-        <footer class="footer-section footer-section--white">
+        <footer class="footer-section footer-section--blue">
           <div class="container">
             <div class="footer-section__inner">
               <div class="footer-row row gy-5">
                 <div class="col-lg-3 col-6">
                   <img
-                    src="images/footer-logo-colored.svg"
+                    src="images/footer-logo.svg"
                     alt=""
                     class="footer-logo d-md-block d-none"
                   />
