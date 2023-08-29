@@ -225,7 +225,7 @@
     }
     .team-member__mt h3 .linkedin {
         width: 27px;
-        margin-top: -3px;
+        margin-top: -0px;
     }
     .team-member__bd p {
         font-size: 19px;
@@ -682,9 +682,31 @@
     }
     .about-hero__mobile-image {
         width: 232px;
-
         flex-shrink: 0;
-    }
+        position: relative;
+        -webkit-mask-image: url('../images/about-hero-mobile-image.png');
+        mask-image: url('../images/about-hero-mobile-image.png');
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: 100% 100%;
+        mask-size: 100% 100%;
+      }
+      .about-hero__mobile-image .img {
+        width: 100%;
+      }
+      .about-hero__mobile-image .ft__video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+      }
+      .about-hero__mobile-image .ft__video video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+
     .about-hero-section {
         padding: 120px 0 35px;
     }

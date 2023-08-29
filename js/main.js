@@ -32,6 +32,7 @@
     responsiveClass: true,
     nav: false,
     dots: true,
+    autoplay: true,
     navText: [
       '<span class="fas fa-chevron-left fa-2x"></span>',
       '<span class="fas fa-chevron-right fa-2x"></span>',
